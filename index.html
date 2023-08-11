@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+
+    <h1>carrito de compras</h1>
+
+    <div id="cart-container">
+        <h2>Shopping Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: <span id="cart-total">0</span></p>
+      </div>
+      <button id="payButton">Pagar</button>
+      <div id="products-container">
+        
+      </div>
+
+      <h2>CONTACTENOS</h2>
+
+    <form id="formulario">
+        <h3>nombre y apellido: </h3><input type="text" name="name" >
+        <h3>email: </h3><input type="email" name="email" >
+        <h3>edad: </h3><input type="number" name="age" >
+        <button type="submit" id="buttonSubmit">enviar</button>
+    </form>
+
+    <h3>Que tarjetas y bancos manejamos?</h3>
+    <ul id="listado">
+
+    </ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script type="module" src="index.js"></script>
+</body>
+</html>
